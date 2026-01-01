@@ -4,11 +4,8 @@ Automate your backups effortlessly with Python. This tool allows you to schedule
 Features
 
 * Automatically backup files and folders
-
 * Supports local and cloud storage
-
 * Easy configuration with Python scripts
-
 * Logs backup activity for monitoring
 
 Installation
@@ -21,8 +18,8 @@ Usage
 
   python backup.py
 
-* Configure source and destination paths in config.yaml
 
+* Configure source and destination paths in config.yaml
 * Run the script to start automated backups
 
 Contribute

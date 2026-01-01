@@ -12,11 +12,13 @@ Features
 * Logs backup activity for monitoring
 
 Installation
-  git clone https://github.com/your-username/py-backup-orchestrator.git
-  cd py-backup-orchestrator
-  pip install -r requirements.txt
+
+  * git clone https://github.com/your-username/py-backup-orchestrator.git
+  * cd py-backup-orchestrator
+  * pip install -r requirements.txt
 
 Usage
+
   python backup.py
 
 * Configure source and destination paths in config.yaml

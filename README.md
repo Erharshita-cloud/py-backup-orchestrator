@@ -18,9 +18,9 @@ py-backup-orchestrator is a lightweight Python tool designed to schedule, manage
 
 ▶️ Usage
 
-  Run the backup script:
-  
-  python backup.py
+      Run the backup script:
+      
+      python backup.py
 
 🤝 Contributing
 

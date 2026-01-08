@@ -4,6 +4,8 @@ Automate your backups effortlessly with Python
 
 py-backup-orchestrator is a lightweight Python tool designed to schedule, manage, and store backups with minimal configuration. It helps you safeguard your files and folders reliably, whether locally or on the cloud.
 
+
+
 ✨ Features
 
  📂 Automatically backs up files and folders
@@ -17,11 +19,13 @@ py-backup-orchestrator is a lightweight Python tool designed to schedule, manage
  🚀 Minimal setup, easy to extend
  
 
+
 ▶️ Usage
 
       Run the backup script:
       
       python backup.py
+
 
 
 🤝 Contributing

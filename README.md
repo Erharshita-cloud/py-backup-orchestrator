@@ -1,34 +1,42 @@
-# **🔐 py-backup-orchestrator**
+# 🔐 py-backup-orchestrator
 
-Automate your backups effortlessly with Python
+> Automate your backups effortlessly — schedule, archive, and log file backups locally or in the cloud with minimal setup.
 
-py-backup-orchestrator is a lightweight Python tool designed to schedule, manage, and store backups with minimal configuration. It helps you safeguard your files and folders reliably, whether locally or on the cloud.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
+![Category](https://img.shields.io/badge/DevOps-Automation-orange?style=flat-square)
 
+---
 
+## ✨ Features
+- 📂 Automatically backs up files and folders on a schedule
+- ☁️ Supports local and cloud storage destinations
+- ⚙️ Simple YAML configuration — no code changes needed
+- 📝 Timestamped archives with activity logging for easy auditing
 
-✨ Features
+---
 
- 📂 Automatically backs up files and folders
+## ⚡ Quick Start
+```bash
+git clone https://github.com/Erharshita-cloud/py-backup-orchestrator.git
+cd py-backup-orchestrator
+pip install -r requirements.txt
+python backup.py
+```
 
- ☁️ Supports local and cloud storage
+---
 
- ⚙️ Simple configuration using Python & YAML
+## ⚙️ Configuration
+```yaml
+source_paths:
+  - /path/to/your/folder
+destination: /path/to/backup/location
+schedule: daily
+log_file: backup.log
+```
 
- 📝 Logs backup activity for easy monitoring
+---
 
- 🚀 Minimal setup, easy to extend
- 
+## 🤝 Contributing
+Issues, suggestions, and PRs are welcome!
 
-
-▶️ Usage
-
-      Run the backup script:
-      
-      python backup.py
-
-
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to open issues, suggest improvements, or submit pull requests to enhance the project.
+**Harshita Goel** · [GitHub](https://github.com/Erharshita-cloud) · harshitagoel1503@gmail.com
